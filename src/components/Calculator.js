@@ -20,11 +20,11 @@ function Calculator() {
       <div className="display">{ next || operation || total || 0 }</div>
       {keys.map((k, index) => (
       <Key
-      keyValue={k}
-      keyType={typeof k}
-      keyIndex={index}
-      handleButtonClick={handleClick}
-      key={k}
+        keyValue={k}
+        keyType={typeof k}
+        keyIndex={index}
+        handleButtonClick={handleClick}
+        key={k}
       />))}
     </div>
   );
