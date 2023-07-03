@@ -8,7 +8,7 @@ function Calculator() {
   return (
     <div className="container">
       <div className="display">0</div>
-      {keys.map((k, index) => (<Key keyValue={k} keyType={typeof k} keyIndex={index} key={index}/> ))}
+      {keys.map((k, index) => (<Key keyValue={k} keyType={typeof k} keyIndex={index} key={k} />))}
     </div>
   );
 }
