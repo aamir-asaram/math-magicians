@@ -1,0 +1,42 @@
+.body * {
+  border: 1px solid black;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 10px;
+  text-align: center;
+  max-width: 600px;
+}
+
+.display {
+  grid-column: span 4;
+  text-align: right;
+  padding: 20px;
+  background-color: darkgray;
+  color: white;
+  outline: 1px solid black;
+}
+
+.key-0 {
+  grid-column: span 2;
+}
+
+.key {
+  cursor: pointer;
+  padding: 20px;
+  outline: 1px solid black;
+}
+
+.key:hover {
+  opacity: 0.8;
+}
+
+.string {
+  background-color: orange;
+}
+
+.number {
+  background-color: lightgray;
+}
