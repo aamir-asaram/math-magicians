@@ -1,7 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Key({ keyValue, keyType, keyIndex, handleButtonClick }) {
+function Key(
+  { keyValue, keyType, keyIndex, handleButtonClick
+}) {
   let type = keyType;
   if (keyIndex < 3) {
     type = 'number';
@@ -11,7 +13,7 @@ function Key({ keyValue, keyType, keyIndex, handleButtonClick }) {
     className += ' key-0';
   }
   return (
-    <div className={className} onClick={handleButtonClick}>{keyValue}</div>
+    <div className={className} onClick={handleButtonClick} onKeyDown={handleButtonClick}>{keyValue}</div>
   );
 }
 
