@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 function Key(
   {
-   keyValue, keyType, keyIndex, handleButtonClick,
-}
+    keyValue, keyType, keyIndex, handleButtonClick,
+  },
 ) {
   let type = keyType;
   if (keyIndex < 3) {
@@ -19,8 +19,9 @@ function Key(
       role="button"
       className={className}
       onClick={handleButtonClick}
-      onKeyDown={handleButtonClick}>
-        {keyValue}
+      onKeyDown={handleButtonClick}
+      >
+      {keyValue}
     </div>
   );
 }

@@ -19,7 +19,8 @@ function Calculator() {
     <div className="container">
       <div className="display">{ next || operation || total || 0 }</div>
       {keys.map((k, index) => (
-      <Key
+        <
+        Key
         keyValue={k}
         keyType={typeof k}
         keyIndex={index}
