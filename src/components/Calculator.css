@@ -1,5 +1,6 @@
-.body * {
-  border: 1px solid black;
+body * {
+  display: flex;
+  justify-content: center;
 }
 
 .container {
@@ -9,11 +10,15 @@
   background-color: rgb(195, 195, 195);
   text-align: center;
   max-width: 600px;
+  min-width: 400px;
+  border: 3px solid black;
+  margin-top: 5%;
 }
 
 .display {
   grid-column: span 4;
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
   padding: 20px;
   background-color: #858693;
   color: white;
@@ -38,4 +43,13 @@
 
 .number {
   background-color: rgb(224, 224, 224);
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+  width: 30%;
 }
