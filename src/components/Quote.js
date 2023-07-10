@@ -8,7 +8,7 @@ function Quote() {
   useEffect(() => {
     const fetchQuote = async () => {
       setLoading(true);
-        const url = 'https://api.api-ninjas.com/v1/quotes?category=alone';
+        const url = 'https://api.api-ninjas.com/v1/quotes?category=inspirational';
         const response = await fetch(url, {
           headers: {
             'X-Api-Key': 'ISRtUiJK4f8rcKFOdZaygB2hrj5CGAoYJzY7VKRu',
@@ -16,7 +16,7 @@ function Quote() {
         });
         if (!response.ok) throw new Error('Request failed');
         const data = await response.json();
-        setQuote(data[0].quote);
+        setQuote(`${data[0].quote} - ${data[0].author}`);
         setLoading(false);
     }
     fetchQuote();
