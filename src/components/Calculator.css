@@ -1,24 +1,79 @@
 body * {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f39248dd;
+  color: white;
+  padding: 0 20px;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  margin-left: 20%;
+}
+
+.nav-items * {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-items * * {
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+.nav-items li:nth-child(2) {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding: 0 10%;
+}
+
+.nav-items * *:hover {
+  color: #f39248dd;
+  background-color: white;
+  border-radius: 5px;
+}
+
 .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.container > * {
+  margin: 5%;
+  padding: 0;
+}
+
+.calculator {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2px;
   background-color: rgb(195, 195, 195);
   text-align: center;
-  max-width: 600px;
+  width: 50%;
+  height: 70%;
   min-width: 400px;
-  border: 3px solid black;
-  margin-top: 5%;
 }
 
 .display {
   grid-column: span 4;
   display: flex;
-  justify-content: flex-end;
+  text-align: end;
   padding: 20px;
   background-color: #858693;
   color: white;
@@ -51,5 +106,33 @@ body * {
   align-items: center;
   justify-content: center;
   padding: 10%;
-  width: 30%;
+  margin: 8%;
+  width: 60%;
+}
+
+.quote {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#home *{
+  margin-left: 5%;
+  width: 80%;
+  padding: 0;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+
+#home h2{
+  font-size: 2em;
+}
+
+#home p{
+  font-size: 1.5em;
 }
