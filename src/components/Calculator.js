@@ -17,7 +17,7 @@ function Calculator() {
 
   return (
     <div className="container">
-      <div className="display">{ next || operation || total || 0 }</div>
+      <div className="display" data-testid="display">{ next || operation || total || 0 }</div>
       {keys.map((k, index) => (
         <
         Key
