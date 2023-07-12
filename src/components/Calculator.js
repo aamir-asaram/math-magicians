@@ -20,7 +20,7 @@ function Calculator() {
     <div className="container">
       <h2>Let's do some Math!</h2>
       <div className="calculator">
-        <div className="display">{ next || operation || total || 0 }</div>
+        <div className="display" data-testid="display">{ next || operation || total || 0 }</div>
         {keys.map((k, index) => (
           <
           Key

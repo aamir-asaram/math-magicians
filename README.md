@@ -109,6 +109,15 @@ You can deploy this project using: GitHub Pages
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/aamir-asaram-089802213/)
 - Twitter: [@aaaaamir_](http://twitter.com/aaaaamir_)
 
+👤 **Supreeti**
+
+- GitHub: [@supreeti](https://github.com/supreeti)
+- Twitter: [@Ksupreeti](https://twitter.com/Ksupreeti)
+- LinkedIn: [Supreeti](https://www.linkedin.com/in/supreeti-kushwaha-23336232/)
+
+👤 **Fombi Favour**
+
+- GitHub: [@Fombi-Favour](https://github.com/Fombi-Favour)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,8 +126,8 @@ You can deploy this project using: GitHub Pages
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] Calculator Functionality
-- [ ] Quote Functionality
+- [ ] Option to choose quotes
+- [ ] Custom themes
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
