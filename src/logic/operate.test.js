@@ -18,3 +18,21 @@ describe("operate", () => {
   });
 
 });
+
+describe("operate_decimal", () => {
+  it("add_to_decimal_numbers", () => {
+    expect(operate(2.3, 3.1, "+")).toBe("5.4");
+  });
+  it("subtract_to_decimal_numbers", () => {
+    expect(operate(5.3, 3.1, "-")).toBe("2.2");
+  });
+  it("multiply_to_decimal_numbers", () => {
+    expect(operate(2.3, 3.1, "x")).toBe("7.13");
+  });
+  it("divide_to_decimal_numbers", () => {
+    expect(operate(4.2, 2.0, "÷")).toBe("2.1");
+  });
+  it("division_by_zero", () => {
+    expect(operate(4.2, 0, "÷")).toBe("Can't divide by 0.");
+  });
+});
