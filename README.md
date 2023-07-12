@@ -109,6 +109,11 @@ You can deploy this project using: GitHub Pages
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/aamir-asaram-089802213/)
 - Twitter: [@aaaaamir_](http://twitter.com/aaaaamir_)
 
+👤 **Supreeti**
+
+- GitHub: [@supreeti](https://github.com/supreeti)
+- Twitter: [@Ksupreeti](https://twitter.com/Ksupreeti)
+- LinkedIn: [Supreeti](https://www.linkedin.com/in/supreeti-kushwaha-23336232/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
